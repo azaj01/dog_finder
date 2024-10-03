@@ -63,7 +63,12 @@ class SingleCarouselSlider extends StatelessWidget {
               ),
               ElevatedButton(
                 onPressed: () => carouselContinueFnc(),
-                child: const Text('Continue'),
+                child: const Text(
+                  'Continue',
+                  style: TextStyle(
+                    color: Colors.white,
+                  ),
+                ),
               )
             ],
           ),

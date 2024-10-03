@@ -1,3 +1,3 @@
 enum ProcessingStatus{
-  initial, waiting, success, error;
+  initial, waiting, success, imageUploaded, error, linked, unlinked;
 }

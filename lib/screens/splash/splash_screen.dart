@@ -131,6 +131,9 @@ class _SplashScreenState extends State<SplashScreen> {
                   currentPage != pages.length - 1 ? next() : launch(),
               child: Text(
                 currentPage != pages.length - 1 ? 'Next' : 'Launch',
+                style: const TextStyle(
+                  color: Colors.white,
+                ),
               ),
             )
           ],

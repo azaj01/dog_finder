@@ -1,16 +1,13 @@
 import 'package:dog_finder/common/theme/styles_manager.dart';
-import 'package:dog_finder/screens/main/main_entry.dart';
 import 'package:dog_finder/screens/main/widgets/carousel_slider.dart';
 import 'package:dog_finder/screens/main/widgets/drawer_opener.dart';
 import 'package:dog_finder/screens/main/widgets/flutter_toast.dart';
 import 'package:dog_finder/screens/main/components/home_sliver_grid_view.dart';
 import 'package:dog_finder/screens/main/widgets/kdot_indicator.dart';
 import 'package:dog_finder/screens/main/widgets/row_text.dart';
-import 'package:dog_finder/screens/main/widgets/single_dog_type_card.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import '../../common/models/dog_type.dart';
 import '../../constants/app_colors.dart';
 import '../../constants/enums/status.dart';
 import '../../controllers/carousel_slider/carousel_slider_cubit.dart';
